@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+
+.nav-bar {
+    position: static;
+    background-color: black;
+    height: 110px;
+    width: 100%;
+    color: white;
+    opacity: .8;
+  
+}
+
+
+.logo {
+    width: 150px;
+    height: 105px;
+}
+
+.nav-list {
+    margin: 40px auto;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 1px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.list-item {
+    display: inline-block;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 15px;
+    border: 1px solid #bbb;
+    opacity: .7;
+}
+
+.list-item a:hover{
+    color: #F7A3CC;
+}
+
+.list-item:last-child {
+    border-right: none;
+}
+
+
+
+/* Beginning of Parallax */
+
+.img1, .img2, .img3, .img4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  opacity: 0.8;
+  position: relative;
+
+}
+
+.img1 {
+  background-image: url('/images/diversity.jpg');
+}
+
+.img2 {
+  background-image: url('/images/Depositphotos_83765810_l-2015.jpg');
+}
+
+.img3 {
+  background-image: url(/images/ChristineKatiePortrait.png);
+  
+}
+
+.img4 {
+    background-image: url('/images/graphic.jpg');
+    height: 60vh;
+}
+
+/* not needed, keep if changing
+.static {
+  position: relative;
+}
+*/
+
+.content {
+  background-color: #fff;
+  color: #5a5a5c;
+  padding: 50px;
+  text-align: left;
+}
+
+h1 {
+  background-color: #111;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 10px;
+  margin: auto;
+  padding: 20px 20px 20px 28px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: auto;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+}
+
+h2 {
+    color: #363B47;
+    margin-left: 40px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    
+}
+
+h3 {
+  color: #111;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: justify;
+  margin: 30px;
+}
+
+h5 {
+  color: #111;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 25px;
+}
+p {
+    font-size: 15px;
+    margin: 25px;
+    text-align: justify;
+}
+
+
+
+/* Beginning of column within parallax */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+
+.text-block {
+    margin: 15px;
+    text-align: justify;
+}
+
+.h4 {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Services Image Styling */
+
+.image {
+    width: 35%;
+    height: 35%;
+    float: left;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+.map{
+    margin: 15px;
+    text-align: center;
+    border: 3px solid #3397A8;
+    padding: 10px;
+    width: 40%;
+    overflow: hidden; 
+    float: left;
+}
+
+.contact-form{
+    height: 535px;
+    border: 3px solid #3397A8;
+    padding:10px;
+    margin: 15px;
+    width: 40%;
+    clear: left;
+}
+
+/* Begin Footer */
+
+.footer{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    margin:auto;
+}
+
+.footer-col{
+    width: 33%;
+    height: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.fab{
+    color: #36B347;
+}
+.fa-facebook-square{
+   
+    margin-left: 20px;
+}
+
+.fa-facebook-twitter{
+
+    margin-left: 15px;
+}
+
+.copyright {
+    font-weight: 100;
+    text-align: left;
+}
